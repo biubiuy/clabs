@@ -10,7 +10,7 @@ void reverse(char s[])
 }
 main()
 {
-	char s[100]={'\0'};
+	char s[200]={'\0'};
 	printf("请输入一个字符串：\n");
 	gets(s);
 	reverse(s);
